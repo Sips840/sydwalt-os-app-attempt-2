@@ -1,0 +1,12 @@
+{
+  "name": "sydwalt-os-app-bridge-tests",
+  "private": true,
+  "description": "Runs assets/bridge.js in real Chromium against the web app's own download, print and new-tab patterns.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "playwright": "1.56.1"
+  }
+}

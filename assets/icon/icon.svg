@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64"><defs>
+    <linearGradient id="bUp" gradientUnits="userSpaceOnUse" x1="-86.6" y1="34.2" x2="72.92" y2="-57.9">
+      <stop offset="0" stop-color="#174C85"/><stop offset=".38" stop-color="#16599A"/>
+      <stop offset=".6" stop-color="#1C6BAA"/><stop offset=".85" stop-color="#4386BF"/>
+      <stop offset="1" stop-color="#5893C4"/>
+    </linearGradient>
+    <linearGradient id="bLow" gradientUnits="userSpaceOnUse" x1="0" y1="-15.8" x2="50.14" y2="71.05">
+      <stop offset="0" stop-color="#8DC5EB"/><stop offset=".12" stop-color="#78B8E6"/>
+      <stop offset=".32" stop-color="#5CA5DA"/><stop offset=".62" stop-color="#4A92CA"/>
+      <stop offset="1" stop-color="#3879B4"/>
+    </linearGradient>
+    <linearGradient id="bSweep" gradientUnits="userSpaceOnUse" x1="-86.6" y1="34.2" x2="72.92" y2="-57.9">
+      <stop offset="0" stop-color="#0E3D70" stop-opacity=".35"/><stop offset=".45" stop-color="#0E3D70" stop-opacity="0"/>
+      <stop offset=".8" stop-color="#FFFFFF" stop-opacity=".10"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".16"/>
+    </linearGradient>
+    <radialGradient id="wBase" gradientUnits="userSpaceOnUse" cx="-6" cy="-8" r="100">
+      <stop offset="0" stop-color="#D3D9DF"/><stop offset=".55" stop-color="#DDE2E7"/>
+      <stop offset=".84" stop-color="#EDF0F3"/><stop offset="1" stop-color="#F8FAFB"/>
+    </radialGradient>
+    <linearGradient id="wStreak" gradientUnits="userSpaceOnUse" x1="-19" y1="-48.71" x2="19" y2="17.11">
+      <stop offset="0" stop-color="#6E7884" stop-opacity="0"/><stop offset=".45" stop-color="#6E7884" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#6E7884" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="wShade" gradientUnits="userSpaceOnUse" x1="-43.3" y1="-75" x2="-15.8" y2="-27.37">
+      <stop offset="0" stop-color="#76828F" stop-opacity=".30"/><stop offset="1" stop-color="#76828F" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="wRim" gradientUnits="userSpaceOnUse" x1="-70" y1="-80" x2="60" y2="80">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".5"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="1"/>
+    </linearGradient>
+    <clipPath id="hex"><path d="M0 -100L86.6 -50V50L0 100L-86.6 50V-50Z"/></clipPath>
+    <g id="tb">
+      <path d="M0 -100L86.6 -50V50L0 100L-86.6 50V-50Z" fill="url(#bLow)"/>
+      <path d="M0 -100L86.6 -50V50L0 100L-86.6 50V-50Z" fill="url(#bSweep)"/>
+      <path d="M-86.6 34.2V-50L0 -100L72.92 -57.9Z" fill="url(#bUp)"/>
+    </g>
+    <g id="tw">
+      <path d="M0 -100L86.6 -50V50L0 100L-86.6 50V-50Z" fill="url(#wBase)"/>
+      <path d="M0 -100L86.6 -50V50L0 100L-86.6 50V-50Z" fill="url(#wStreak)"/>
+      <path d="M0 -100L86.6 -50V50L0 100L-86.6 50V-50Z" fill="url(#wShade)"/>
+      <path d="M0 -100L86.6 -50V50L0 100L-86.6 50V-50Z" fill="none" stroke="url(#wRim)" stroke-width="18" clip-path="url(#hex)"/>
+    </g><radialGradient id="bg" gradientUnits="userSpaceOnUse" cx="32.0" cy="26.88" r="49.92"><stop offset="0" stop-color="#132A47"/><stop offset="0.6" stop-color="#0B1A30"/><stop offset="1" stop-color="#060F1D"/></radialGradient></defs><rect width="64" height="64" rx="14" fill="url(#bg)"/><g transform="translate(32.0 32.0) scale(0.04438)"><use xlink:href="#tw" transform="translate(-463 -238.4)"/><use xlink:href="#tw" transform="translate(-463 0)"/><use xlink:href="#tw" transform="translate(-463 238.4)"/><use xlink:href="#tb" transform="translate(-231.5 -357.6)"/><use xlink:href="#tb" transform="translate(-231.5 -119.2)"/><use xlink:href="#tw" transform="translate(-231.5 119.2)"/><use xlink:href="#tb" transform="translate(-231.5 357.6)"/><use xlink:href="#tb" transform="translate(0 -476.8)"/><use xlink:href="#tw" transform="translate(0 -238.4)"/><use xlink:href="#tb" transform="translate(0 0)"/><use xlink:href="#tw" transform="translate(0 238.4)"/><use xlink:href="#tb" transform="translate(0 476.8)"/><use xlink:href="#tb" transform="translate(231.5 -357.6)"/><use xlink:href="#tw" transform="translate(231.5 -119.2)"/><use xlink:href="#tb" transform="translate(231.5 119.2)"/><use xlink:href="#tb" transform="translate(231.5 357.6)"/><use xlink:href="#tw" transform="translate(463 -238.4)"/><use xlink:href="#tw" transform="translate(463 0)"/><use xlink:href="#tw" transform="translate(463 238.4)"/></g></svg>
