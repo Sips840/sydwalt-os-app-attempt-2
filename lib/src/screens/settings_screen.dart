@@ -120,8 +120,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
       _saving = false;
       _url.text = widget.settings.serverUrl;
     });
-    ScaffoldMessenger.of(context)
-        .showSnackBar(const SnackBar(content: Text('Server address saved. Sydwalt OS is reloading.')));
+    ScaffoldMessenger.of(
+      context,
+    ).showSnackBar(const SnackBar(content: Text('Server address saved. Sydwalt OS is reloading.')));
   }
 
   Future<void> _reset() async {
@@ -132,8 +133,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
       _urlError = null;
       _check = _Check.idle;
     });
-    ScaffoldMessenger.of(context)
-        .showSnackBar(const SnackBar(content: Text('Back to the standard Sydwalt OS server.')));
+    ScaffoldMessenger.of(
+      context,
+    ).showSnackBar(const SnackBar(content: Text('Back to the standard Sydwalt OS server.')));
   }
 
   Future<void> _clear() async {

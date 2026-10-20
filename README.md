@@ -131,7 +131,7 @@ do (for example a new native feature or a new server address).
 
 ## Developing
 
-Requirements: Flutter 3.47 or later, plus Android Studio or Xcode for running
+Requirements: Flutter 3.44 or later (Dart 3.12), plus Android Studio or Xcode for running
 on a device or emulator.
 
 ```bash

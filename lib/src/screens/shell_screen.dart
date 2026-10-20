@@ -307,8 +307,9 @@ class _ShellScreenState extends State<ShellScreen> {
 
   Future<void> _openDownloads() async {
     setState(() => _unseenDownloads = 0);
-    await Navigator.of(context)
-        .push(MaterialPageRoute<void>(builder: (_) => DownloadsScreen(repository: widget.downloads)));
+    await Navigator.of(
+      context,
+    ).push(MaterialPageRoute<void>(builder: (_) => DownloadsScreen(repository: widget.downloads)));
   }
 
   Future<void> _openSettings() async {
